@@ -1,9 +1,3 @@
-#
-# Be sure to run `pod spec lint Objective-C-HMTL-Parser.podspec' to ensure this is a
-# valid spec and remove all comments before submitting the spec.
-#
-# To learn more about the attributes see http://docs.cocoapods.org/specification.html
-#
 Pod::Spec.new do |s|
   s.name         = "Objective-C-HMTL-Parser"
   s.version      = "0.0.1"
@@ -19,7 +13,7 @@ Pod::Spec.new do |s|
 
   # Specify the license type. CocoaPods detects automatically the license file if it is named
   # 'LICENCE*.*' or 'LICENSE*.*', however if the name is different, specify it.
-  # s.license      = 'MIT (example)'
+  s.license      = 'MIT'
   # s.license      = { :type => 'MIT (example)', :file => 'FILE_LICENSE' }
 
   # Specify the authors of the library, with email addresses. You can often find
@@ -54,7 +48,7 @@ Pod::Spec.new do |s|
   # added to the Pods project. If the pattern is a directory then the
   # path will automatically have '*.{h,m,mm,c,cpp}' appended.
   #
-  s.source_files = 'Classes', 'Classes/**/*.{h,m}'
+  s.source_files = '*.{h,m}'
   #s.exclude_files = 'Classes/Exclude'
 
   # A list of file patterns which select the header files that should be
