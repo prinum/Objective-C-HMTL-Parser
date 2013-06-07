@@ -77,12 +77,15 @@ Pod::Spec.new do |s|
   #
   # s.framework  = 'SomeFramework'
   # s.frameworks = 'SomeFramework', 'AnotherFramework'
-  s.framework  = 'libxml2'
+  #s.framework  = 'libxml2'
   # Specify a list of libraries that the application needs to link
   # against for this Pod to work.
   #
   # s.library   = 'iconv'
-  # s.libraries = 'iconv', 'xml2'
+  #s.libraries = 'iconv', 'xml2'
+  #s.library   = 'libxml2'
+  
+  s.library   = 'xml2'
 
   # If this Pod uses ARC, specify it like so.
   #
